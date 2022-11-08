@@ -224,6 +224,7 @@ img {
 
 main {
   min-width: 318px;
+  max-width: 1500px;
   box-sizing: border-box;
   padding-left: 18rem;
   padding-right: 18rem;
@@ -300,6 +301,7 @@ p {
   position: relative;
   background: url("images/image-cover.png") no-repeat center;
   height: 70vh;
+  max-height: 600px;
   width: 100%;
   overflow: hidden;
   background-size: cover;
@@ -382,11 +384,15 @@ ul {
 }
 
 @media screen and (max-width: 800px) {
-  /* Scale body to new minimum width */
+  
+  
   main {
-    max-width: 800px;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .make-a-difference {
+    width: 100%;
   }
   .what-to-bring {
     margin: 0 auto;
